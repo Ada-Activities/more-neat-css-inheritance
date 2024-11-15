@@ -1,0 +1,25 @@
+body {
+    background-color: white;
+    font-family: Helvetica;
+    color: #1cd9ad;
+    font-size: 12px;
+    border: 5px #6fb8e8 solid;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    color: #fa5a6a;
+}
+
+p {
+    background-color: blue;
+    font-family: Times;
+    font-size: 20px;
+    border: 5px pink dotted;
+}
+
+/* 
+  h1 inherits font-family and text-align, overrides color and font-weight
+  p inherits font-color and text-align, overrides font-family, font-size, background-color
+*/
